@@ -1,19 +1,19 @@
 #include "main.h"
-
 /**
- * main - prints to the console _putchar followed by a newline
- * Return: - ALways 0 (success)
+ * main- print _putchar followed by a new line.
+ * Description: no standard libraries.
+ * Return: 0
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char printer[] = "_putchar";
+	int i = 0;
+
+	while (printer[i] != '\0')
+	{
+		_putchar(printer[i]);
+		i++;
+	}
 	_putchar('\n');
 
 	return (0);
