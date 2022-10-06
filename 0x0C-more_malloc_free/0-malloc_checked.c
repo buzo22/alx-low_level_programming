@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 /**
  * malloc_checked - Allocates memory using malloc.
  * @b: the size of bytes to be allocated.
